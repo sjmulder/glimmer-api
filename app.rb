@@ -52,7 +52,7 @@ class Release < ActiveRecord::Base
   end
 
   def manifest_url(base_url)
-    "#{url(base_url)}/manifest.xml"
+    "#{url(base_url)}/manifest.plist"
   end
 
   def release_notes_url(base_url)
@@ -76,7 +76,7 @@ get '/apps/:slug.rss' do
   builder :feed
 end
 
-get '/apps/:slug/:version/manifest.xml' do
+get '/apps/:slug/:version/manifest.plist' do
   @app = App.find_by!(:slug => params[:slug])
   @release = @app.releases.find_by!(:version => params[:version])
   builder :ipa_manifest

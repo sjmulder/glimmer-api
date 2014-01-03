@@ -69,7 +69,7 @@ Now the RSS feed can be loaded based on the app‘s slug:
           <link>http://example.com/foo</link>
           <pubDate>Fri, 03 Jan 2014 21:10:26 -0000</pubDate>
           <guid>http://localhost:9292/apps/sample-app/12</guid>
-          <glimmer:manifestLink>http://localhost:9292/apps/sample-app/12/manifest.xml</glimmer:manifestLink>
+          <glimmer:manifestLink>http://localhost:9292/apps/sample-app/12/manifest.plist</glimmer:manifestLink>
           <sparkle:releaseNotesLink>http://localhost:9292/apps/sample-app/12/release-notes.html</sparkle:releaseNotesLink>
         </item>
       </channel>
