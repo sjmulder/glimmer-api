@@ -63,7 +63,7 @@ Now the RSS feed can be loaded based on the app‘s slug:
     <rss version="2.0">
       <channel>
         <title>Sample App</title>
-        <link>http://glimmer-api.dev/apps/sample-app.rss</link>
+        <link>http://localhost:9292/apps/sample-app.rss</link>
         <item>
           <title>Sample App 1.0</title>
           <link>http://example.com/foo</link>
