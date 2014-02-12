@@ -28,7 +28,8 @@ API
 
 The available requests are:
 
-    PUT /apps/<app-slug>/<version>
+    PUT    /apps/<app-slug>/<version>
+    DELETE /apps/<app-slug>/<version>
 
     GET /apps/<app-slug>.rss
     GET /apps/<app-slug>/<version>/manifest.xml
