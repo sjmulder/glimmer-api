@@ -57,7 +57,7 @@ Of these, `api_key`, `app_title` and `bundle_identifier` are required. Also noti
 
 Now the RSS feed can be loaded based on the app‘s slug:
 
-    curl http://glimmer-api.dev/apps/sample-app.rss
+    curl http://localhost:9292/apps/sample-app.rss
 
     <?xml version="1.0" encoding="UTF-8"?>
     <rss version="2.0">
